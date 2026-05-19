@@ -1,0 +1,5 @@
+image,marker,channel,count,mean_area,median_area
+9794 NeuN.tif,NeuN,2,514,255.2,236.0
+9794 Olig2.tif,Olig2,1,151,69.9,62.0
+9795 NeuN.tif,NeuN,2,574,259.3,234.0
+9795 Olig2.tif,Olig2,1,236,74.9,72.0
