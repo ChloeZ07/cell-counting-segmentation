@@ -38,11 +38,39 @@ The algorithm follows these steps:
 
 To use the local web app:
 
-1. Double-click `start_cell_counter.command`.
-2. Open `http://127.0.0.1:5001` in a browser.
-3. Drag TIFF images into the page.
-4. Check the count table and overlay images.
-5. Download `counts.csv` if needed.
+1. Install the required Python packages:
+
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+2. Start the app:
+
+```bash
+python3 app.py
+```
+
+Or on macOS, double-click:
+
+```text
+start_cell_counter.command
+```
+
+3. Open this local URL in a browser:
+
+```text
+http://127.0.0.1:5001
+```
+
+4. Drag TIFF images into the page.
+5. Check the count table and overlay images.
+6. Download `counts.csv` if needed.
+
+If `start_cell_counter.command` does not open after downloading from GitHub, run this once in Terminal:
+
+```bash
+chmod +x start_cell_counter.command
+```
 
 ## Short Description
 
