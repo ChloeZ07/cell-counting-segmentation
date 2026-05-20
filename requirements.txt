@@ -1,0 +1,6 @@
+flask
+numpy
+tifffile
+scipy
+scikit-image
+matplotlib
